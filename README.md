@@ -10,6 +10,8 @@
 ### 학습 전략
 - Multi-label classification (4-class)
 - BCE + sigmoid: 각 클래스에 대한 **독립적인 2진 분류(binary classification)** 수행
+- Validation loss 기반 best model 가중치 업데이트
+  
 #### 하이퍼파라미터 세팅
 ```
     # 학습 파라미터
